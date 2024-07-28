@@ -1,5 +1,7 @@
 import re
 from difflib import SequenceMatcher
+from typing import List, Tuple, Set
+
 
 def preprocess_name(name):
     # Convert to lowercase and remove non-alphanumeric characters
